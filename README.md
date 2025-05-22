@@ -99,7 +99,8 @@ Creamos un archivo JSON que define estas remapificaciones usando `shell_command`
 }
 ```
 
-## Alternativamente (OPCIÓN B de archivos) se pueden tener dos reglas separadas para que cada tecla conserve un mapeo independiente si es que el teclado lo permite. Contenido de los archivo:
+## Alternativamente (OPCIÓN B de archivos)
+Se pueden tener dos reglas separadas para que cada tecla conserve un mapeo independiente si es que el teclado lo permite. Contenido de los archivo:
 
 - Crear el archivo para mapear tecla a la izquierda de la 'z', de (|°) a (<>):
 `vi ~/.config/karabiner/assets/complex_modifications/remap_grave_to_less_greater.json`
